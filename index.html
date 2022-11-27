@@ -327,37 +327,38 @@
         </svg>
         </div>
         <div class="modal-wraper">
-          <label for="name" class="modal-label">Телефон</label>
-          <input type="text" name="name" id="name" class="modal-input">
+          <label for="phone" class="modal-label">Телефон</label>
+          <input type="tel" name="tel" id="phone" class="modal-input">
           <svg width="18px" height="18px" class="modal-svg-input">
             <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
           </svg>
         </div>
         <div class="modal-wraper">
-          <label for="name" class="modal-label">Пошта</label>
-          <input type="text" name="name" id="name" class="modal-input">
+          <label for="email-input" class="modal-label">Пошта</label>
+          <input type="email" name="email" id="email-input" class="modal-input">
           <svg width="18px" height="18px" class="modal-svg-input">
             <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
           </svg>
         </div>
-        <div class="modal-wraper">
-          <label for="user-comment" class="modal-label">Коментар</label>
-          <textarea name="user-comment" id="user-comment" class="modal-textatea" placeholder="Введіть текст "></textarea>
+        <div class="textarea-wraper">
+          <label for="user-comments" class="modal-label">Коментар</label>
+          <textarea name="user-comment" id="user-comments" class="modal-textarea" placeholder="Введіть текст "></textarea>
         </div>
 
-        <div>
+        <div class="checkbox-wrapper">
         <input type="checkbox"
          name="modal-checkbox" id="modal-checkbox"
          class="checkbox hide">
     <label for="modal-checkbox" class="modal-checkbox">
-      <span><svg width="11px" height="8px">
+      <span><svg width="16px" height="15px">
       <use href="./images/icons.svg#icon-cheked"></use>
-    </svg></span>Погоджуюся з розсилкою та приймаю   <a href=""> Умови договору</a>
+    </svg></span>Погоджуюся з розсилкою та приймаю   <a href="#" class="checkbox-link"> Умови договору</a>
   </label>
       </div>
+      <button type="submit" class="input-button">Відправити</button>
     </form>
 
-    <button type="button" class="close-modal"data-modal-close><svg class="close-svg" width="16px" height="15px"><use href="./images/icons.svg#icon-X"></use></svg>
+    <button type="button" class="close-modal"data-modal-close><svg class="close-svg" width="11px" height="11px"><use href="./images/icons.svg#icon-X"></use></svg>
     </button></div> </div>
   
 
